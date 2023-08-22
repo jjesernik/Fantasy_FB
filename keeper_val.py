@@ -7,7 +7,7 @@ total_budget = teams * budget_per_team
 roster_positions = {'QB': 1, 'RB': 2, 'WR': 3, 'TE': 1, 'FLEX': 1}
 
 # Load the data
-file_path = r"C:\Users\jjese\OneDrive\Documents\GitHub\Fantasy_FB\keepers.csv"
+file_path = r"C:\Keepers.csv"
 df = pd.read_csv(file_path)
 
 # Calculate the total keeper cost
